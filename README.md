@@ -7,32 +7,6 @@
 - PyTorch 2.4.0
 - 推荐使用2080Ti及以上服务器
 
-## 目录
-transformer-from-scratch/
-
-├── src/
-│── model.py
-
-│   ├── train.py
-
-│   ├── data_loader.py
-
-│   ├── config.py
-
-│   └── utils.py
-
-├── configs/
-
-│   └── base.yaml
-├── scripts/
-│   └── run.sh
-├── requirements.txt
-├── README.md
-└── train.py
-└── test.py
-└── train_no_positional.py
-└── test_no_positional.py
-
 ## 运行指南
 ### 1.环境准备
 ```bash
@@ -75,5 +49,6 @@ python test.py --config configs/ablation_8.yaml --checkpoint ablation_models/8/b
 python train_no_positional.py --config configs/ablation_4.yaml --seed 42 --device cuda --epochs 50
 python test_no_positional.py --config configs/base.yaml --checkpoint no_positional_model/best_model.pt --device cuda
 ```
+
 
 
