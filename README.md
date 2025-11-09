@@ -7,25 +7,6 @@
 - PyTorch 2.4.0
 - 推荐使用2080Ti及以上服务器
 
-## 目录
-main/
-├├── src/                        
-│   ├── model.py             
-│   ├── train.py              
-│   ├── data_loader.py         
-│   ├── config.py              
-│   └── utils.py            
-├├── configs/
-│   └── base.yaml               
-├├── scripts/
-│   └── run.sh                  
-├├── requirements.txt          
-├├── README.md                  
-├├── train.py                   
-├├── test.py                    
-├├── train_no_positional.py     
-└├── test_no_positional.py      
-
 ## 运行指南
 ### 1.环境准备
 ```bash
