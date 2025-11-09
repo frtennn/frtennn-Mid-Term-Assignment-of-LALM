@@ -1,0 +1,11 @@
+torch==2.4.0
+torchvision
+torchaudio
+numpy>=1.21.0
+matplotlib>=3.3.0
+tqdm>=4.64.0
+pyyaml>=5.4.0
+requests>=2.25.0
+sacrebleu>=2.0.0
+sentencepiece>=0.1.99
+datasets>=2.0.0
