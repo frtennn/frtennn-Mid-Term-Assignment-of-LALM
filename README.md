@@ -9,13 +9,21 @@
 
 ## 目录
 transformer-from-scratch/
+
 ├── src/
+
 │   ├── model.py
+
 │   ├── train.py
+
 │   ├── data_loader.py
+
 │   ├── config.py
+
 │   └── utils.py
+
 ├── configs/
+
 │   └── base.yaml
 ├── scripts/
 │   └── run.sh
@@ -68,3 +76,4 @@ python test.py --config configs/ablation_8.yaml --checkpoint ablation_models/8/b
 python train_no_positional.py --config configs/ablation_4.yaml --seed 42 --device cuda --epochs 50
 python test_no_positional.py --config configs/base.yaml --checkpoint no_positional_model/best_model.pt --device cuda
 ```
+
